@@ -10,16 +10,16 @@
         rel="stylesheet">
     <style>
         :root {
-            --bg-deep: #0f172a;
-            --bg-card: #1e293b;
-            --accent: #38bdf8;
-            --accent-glow: rgba(56, 189, 248, 0.3);
-            --text-primary: #f8fafc;
-            --text-secondary: #94a3b8;
-            --border: #334155;
-            --success: #22c55e;
-            --error: #ef4444;
-            --warning: #f59e0b;
+            --bg-deep: #f1f5f9;
+            --bg-card: #ffffff;
+            --accent: #0284c7;
+            --accent-glow: rgba(2, 132, 199, 0.2);
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --border: #cbd5e1;
+            --success: #16a34a;
+            --error: #dc2626;
+            --warning: #d97706;
         }
 
         * {
@@ -105,7 +105,7 @@
             }
 
         .cell{
-            background: #1e293b;
+            background: #f8fafc;
             border: 1px solid var(--border);
             width:100%;
             aspect-ratio:1/1;
@@ -219,7 +219,7 @@
         }
 
         .node.backtracked circle {
-            fill: #334155;
+            fill: #cbd5e1;
             opacity: 0.5;
         }
 
@@ -375,7 +375,7 @@
                     <div class="dot" style="background: var(--error); opacity: 0.4"></div> Pruned
                 </div>
                 <div class="legend-item">
-                    <div class="dot" style="background: #334155"></div> Backtracked
+                    <div class="dot" style="background: #cbd5e1"></div> Backtracked
                 </div>
             </div>
             <!-- D3 Visualization will be injected here -->
